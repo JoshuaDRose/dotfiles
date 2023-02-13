@@ -17,18 +17,12 @@ return require('packer').startup(function()
 use('lewis6991/gitsigns.nvim')
 
 use('https://github.com/tpope/vim-fugitive')
-use({
-    "ziontee113/icon-picker.nvim",
-    config = function()
-        require("icon-picker").setup({
-            disable_legacy_commands = true
-        })
-    end,
-})
+use({'nvim-telescope/telescope-symbols.nvim' })
 
 use {'glepnir/dashboard-nvim'}
 use 'shaunsingh/nord.nvim'
 
+use 'wakatime/vim-wakatime'
 use 'https://github.com/itchyny/vim-gitbranch'
 
 use({ 'mrjones2014/legendary.nvim', tag = 'v2.1.0', })
