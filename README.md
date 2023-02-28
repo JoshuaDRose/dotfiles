@@ -19,12 +19,12 @@
     <h1>⌨️  Macros</h1>
     <div>
         <ul>
-            <b>Key: </b>Value
-            <b>Key: </b>Value
-            <b>Key: </b>Value
-            <b>Key: </b>Value
-            <b>Key: </b>Value
-            <b>Key: </b>Value
+            <b>Key: </b>Value<br>
+            <b>Key: </b>Value<br>
+            <b>Key: </b>Value<br>
+            <b>Key: </b>Value<br>
+            <b>Key: </b>Value<br>
+            <b>Key: </b>Value<br>
         </ul>
     </div>
 <div>
