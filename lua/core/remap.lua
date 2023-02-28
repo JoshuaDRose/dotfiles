@@ -23,7 +23,7 @@ vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 -- This is going to get me cancelled
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
-vim.keymap.set("n", "Q", "<nop>")
+-- vim.keymap.set("n", "Q", "<nop>")
 -- vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 vim.keymap.set("n", "<leader>fmt", vim.lsp.buf.format)
 
@@ -32,12 +32,14 @@ vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 
+vim.keymap.set("n", "<C-n>", "<cmd>NERDTreeToggleVCS<CR><C-w>l")
+
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
-vim.keymap.set("n", "<leader>car", "<cmd>CellularAutomaton make_it_rain<CR>");
-vim.keymap.set("n", "<leader>cal", "<cmd>CellularAutomaton game_of_life<CR>");
-vim.keymap.set("n", "<leader>cas", "<cmd>CellularAutomaton snake<CR>");
+--vim.keymap.set("n", "<leader>car", "<cmd>CellularAutomaton make_it_rain<CR>");
+-- vim.keymap.set("n", "<leader>cal", "<cmd>CellularAutomaton game_of_life<CR>");
+-- vim.keymap.set("n", "<leader>cas", "<cmd>CellularAutomaton snake<CR>");
 
 -- p u is presence update
 -- vim.keymap.set("n", "<leader>pu", "<cmd>lua package.loaded.presence:update()<CR>");
