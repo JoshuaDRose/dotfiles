@@ -40,5 +40,4 @@ vim.keymap.set("n", "<leader>cal", "<cmd>CellularAutomaton game_of_life<CR>");
 vim.keymap.set("n", "<leader>cas", "<cmd>CellularAutomaton snake<CR>");
 
 -- p u is presence update
-vim.keymap.set("n", "<leader>pu", "<cmd>lua package.loaded.presence:update()<CR>");
-
+-- vim.keymap.set("n", "<leader>pu", "<cmd>lua package.loaded.presence:update()<CR>");

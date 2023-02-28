@@ -42,11 +42,6 @@ use {
         {'nvim-lua/plenary.nvim'},
     }
 }
-use {
-    "nvim-neorg/neorg",
-    run = ":Neorg sync-parsers",
-    requires = "nvim-lua/plenary.nvim",
-}
 use('andweeb/presence.nvim')
 use('wbthomason/packer.nvim')
 use({'nvim-telescope/telescope.nvim', requires = {'nvim-telescope/telescope-media-files.nvim'}})
