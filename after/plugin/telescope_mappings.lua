@@ -3,7 +3,7 @@ local builtin = require('telescope.builtin');
 local function locate_dotfiles()
     builtin.git_files {
         shorten_path = true,
-        cwd = '~/.config/nvim',
+        cwd = '~/.config',
         prompt = '~ dotfiles ~',
         height = 10,
 
@@ -14,8 +14,8 @@ local function locate_dotfiles()
     }
 end
 
-vim.keymap.set('n', '<leader>ld', locate_dotfiles)
-vim.keymap.set('n', '<leader>ps', builtin.grep_string)
+vim.keymap.set('n', '<leader>td', locate_dotfiles)
+-- vim.keymap.set('n', '<leader>ps', builtin.grep_string)
 vim.keymap.set('n', '<leader>pb', builtin.buffers)
 vim.keymap.set('n', '<leader>pf', builtin.find_files)
 

@@ -1,6 +1,6 @@
 require('rose-pine').setup({
     --- @usage 'main' | 'moon'
-    dark_variant = 'main',
+    dark_variant = 'moon',
     bold_vert_split = false, -- chunky borders
     dim_nc_background = false,
     disable_background = true,
@@ -39,4 +39,6 @@ require('rose-pine').setup({
     }
 })
 
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 vim.cmd('colorscheme rose-pine')
